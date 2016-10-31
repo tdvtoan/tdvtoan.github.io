@@ -1,0 +1,664 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Vincent De Smet</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Vincent De Smet
+					</h1>
+					<h2>
+						Software Engineer / Senior FMS Consultant
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="84f2edeae7e1eaf0aae0f6e8c4e3e9e5ede8aae7ebe9">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+84 909021202</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://so0k.github.io">http://so0k.github.io</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Passionate programmer with over nine years of combined experience in software engineering and business consulting roles. Beginning contributor to open source projects and advocate for open source ideology. Fast learner continuously seeking to understand challenging technologies in order to improve overall skills and abilities.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://twitter.com/vincentdesmet">vincentdesmet</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						linkedin
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://vn.linkedin.com/in/vincentds">vincentds</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Stack-Overflow
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://stackoverflow.com/cv/vincentdesmet">vincentdesmet</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://github.com/so0k">so0k</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>TRG International</span>
+					<span class="date">
+						2006-09-01 — To Date
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.trginternational.com">http://www.trginternational.com</a>
+				</div>
+				<div class="position">
+					Professional Services Manager / Senior Consultant
+				</div>
+				<div class="summary">
+					<p>TRG is a global market-leading professional services firm delivering Financial Management, Hospitality, ERP and Dynamic Enterprise Performance Management solutions.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">I implemented the Financial Managment System for over 40 Hilton World Wide Hotels (Infor FMS SunSystems) as Primary Consultant, preparing project plan &amp; managing each on-site project by myself as the sole and senior consultant.</li>
+					<li class="bullet">I successfully delivered Implementations and End User Training sessions in over 12 countries around the world.</li>
+					<li class="bullet">I developed and implemented a HTE (OTA dialect) interface (C# .NET) for Hilton Japan. The solution is live in all Hilton properties within the region since 2008.</li>
+					<li class="bullet">I provided the technical design as well as implemented this design with custom add-ons to the Financial Management System to provide complex business rules, reporting and segregation for the Hilton Turkey cluster platform. As well as lead the migration to the hosted cluster environment on-site (first IBM cloud, followed by migrating from IBM to Dell)</li>
+					<li class="bullet">I enjoy to automate mine and other consultants&#x27; jobs as well as end-user workflow by providing intuitive solutions in scripting languages such as PowerShell, Python and Bash as well as develop Line of Business applications using Visual Studio Tools for Office and VBA.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ludiino</span>
+					<span class="date">
+						2014-06-01 — 2015-09-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://golfconnect24.com">http://golfconnect24.com</a>
+				</div>
+				<div class="position">
+					Technical Lead
+				</div>
+				<div class="summary">
+					<p>Ludiino is a start-up in Vietnam focused on providing online booking, dashboards and scoreboard solutions to sports, starting with Golf in Vietnam.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Designed the Docker-based developer workflow using in-house hosted Gitlab. Studied and advised on suitable git-branching models and issue closing workflow for the developers. Some experience with Agile project management.</li>
+					<li class="bullet">I was in charge of writing the Dockerfile and Docker-Compose setup to orchestrate the full stack (Nginx, uWSGI, Postgres), as well as prove the stack with a PoC AngularJS / Django REST Framework application before the development teams had implemented the actual application and hand over everything to the developers. I ensured a successful immutable infrastructure for staging, test and production environments in the cloud.</li>
+					<li class="bullet">Designed and provided PoC for the AWS - S3 based upload forms and ensured proper IAM roles were created and used only by the API servers to issue signed policy documents. Ensured no secrets were committed to source control and all secrets were made available through environment variables when bringing up each environment.</li>
+					<li class="bullet">Designed the real time messaging architecture to be added on top of the REST APIs, based on Redis and NodeJS.</li>
+					<li class="bullet">Created a low-cost, single server git-receive, build and deploy server as a stop gap until proper Jenkins implementation was completed.</li>
+					<li class="bullet">Troubleshoot and maintain Ubuntu and CoreOS servers in production.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Docker Saigon</span>
+					<span class="date">
+						2015-11-01 — To Date
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://meetup.com/docker-saigon">http://meetup.com/docker-saigon</a>
+				</div>
+				<div class="position">
+					Organizer
+				</div>
+				<div class="summary">
+					<p>As an organizer for the local Docker community in Saigon, I dedicate my time to research the latest announcements in the trending world of Linux Containers and often present my findings for everyone in the group. Doing so, helps me achieve a deeper understanding of the requirements of sysadmins by fielding their questions while researching the current industry standards. I have found this to be an invaluable platform to rapidly solidify my DevOps skills.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">October 2014: Local Development powered by Docker</li>
+					<li class="bullet">September 2015: Kubernetes short overview &amp; group discussion with RedHat Engineers</li>
+					<li class="bullet">October 2015: Docker v1.9 Fundamentals (Machine, Compose, Swarm)</li>
+					<li class="bullet">January 2016: Workshop - Kubernetes Deep Dive (trial run for my Digital Ocean Article)</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>State University of Ghent, Belgium</span>
+					<span class="date">
+						2001-09-01 — 2006-06-30
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science - Software Engineering
+				</div>
+				<div class="studyType">
+					Master
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Can Do Award</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					for the year 2008
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>TRG</strong>
+				</div>
+				<div class="summary">
+					Awarded by the CEO and Deputy General Director for showing a positive attitude and ability to deliver on the most challenging projects
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Passionate Award</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					for the year 2009
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>TRG</strong>
+				</div>
+				<div class="summary">
+					Awarded by the CEO and Deputy General Director for showing great dedication to the company and its customers
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Innovative Award</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					for the year 2010
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>TRG</strong>
+				</div>
+				<div class="summary">
+					Awarded by the CEO and Deputy General Director for delivering a highly innovative solution
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Can Do Award</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					for the year 2011
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>TRG</strong>
+				</div>
+				<div class="summary">
+					Awarded by the CEO and Deputy General Director for showing a positive attitude and ability to deliver on the most challenging projects
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="publications" class="row">
+		<aside class="col-sm-3">
+			<h3>Publications</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Provision a Kubernetes Cluster Using CoreOS</span>
+					<span class="date">
+						To Be Released
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://so0k.github.io/do/preview/how-to-provision-a-kubernetes-cluster-using-coreos-v2.html"></a>
+				</div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>Digital Ocean</strong>
+				</div>
+				<div class="summary">
+					<p>step-by-step instructions on how to create a single-controller/multi-worker Kubernetes cluster on CoreOS hosted by Digital Ocean. The draft is currently under review by Digital Ocean. Potentially the excessive usage of cloudinit will be replaced by Ansible in the next draft.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Software Engineering</h4>
+				</div>
+				<ul class="keywords">
+					<li>System Design</li>
+					<li>Relational Database Design</li>
+					<li>Software Architecture Design</li>
+					<li>Functional Programming</li>
+					<li>OO Programming</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>System Administration</h4>
+				</div>
+				<ul class="keywords">
+					<li>CoreOS</li>
+					<li>Systemd</li>
+					<li>CloudInit</li>
+					<li>Docker</li>
+					<li>Kubernetes</li>
+					<li>Digital Ocean</li>
+					<li>AWS - S3</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Scripting Languages</h4>
+				</div>
+				<ul class="keywords">
+					<li>Bash</li>
+					<li>PowerShell</li>
+					<li>Python</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>uWSGI</li>
+					<li>nginx</li>
+					<li>Postgresql</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Financial Management for Hospitality</h4>
+				</div>
+				<ul class="keywords">
+					<li>Integration</li>
+					<li>System Build</li>
+					<li>Localization</li>
+					<li>End User Training</li>
+					<li>Go Live Support</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Dutch</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Bilingual proficiency
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>French</strong>
+				</div>
+				<div class="fluency">
+					Professional working proficiency
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Vietnamese</strong>
+				</div>
+				<div class="fluency">
+					No proficiency
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Real Time Data Analytics for Electronic Sporting Events</h4>
+				</div>
+				<ul class="keywords">
+					<li>Electronic Sports</li>
+					<li>Parsing Event Streams</li>
+					<li>Managing Tournament brackets</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>I have been working with Vincent since 2010. He always acted as a great professional, going deep into analyzing and understanding the business needs and always providing accurate solutions in difficult environments</p>
+					<p class="name">
+						<strong>— Julien Favre - Europe Finance Projects Senior Manager Hilton Worlwide (<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="de94abb2b7bbb0f098bfa8acbb9eb6b7b2aab1b0f0bdb1b3">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script>)</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>

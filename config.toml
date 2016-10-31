@@ -1,0 +1,22 @@
+languageCode = "en-us"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+baseurl = "http://toany.github.io"
+canonifyurls = true
+title = "Congrats, you found me :)"
+author = "A Dreamer"
+theme = "hugo-uno"
+
+[indexes]
+   category = "categories"
+   tag = "tags"
+[Params]
+  AuthorName = "Tony"
+  github = "tdvtoan"
+  email = "tdvtoan@gmail.com"
+  description = "Be a dreamer, be a doer."
+  cv = "/pages/cv"
+  linkedin = "tdvtoan"
+  cover = "/images/background-cover.jpg"
+  logo = "/img/logo-1.jpg"
