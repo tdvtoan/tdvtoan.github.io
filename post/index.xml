@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Posts on Congrats, you found me :) </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://toany.github.io/public/post/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sat, 29 Mar 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Just another sample post</title>
+      <link>http://toany.github.io/public/post/new/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://toany.github.io/public/post/new/</guid>
+      <description>&lt;p&gt;Hello all&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
