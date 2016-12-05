@@ -497,18 +497,18 @@ print (foo(3))
 <div class="sl-block" data-block-type="text" style="width: 626px; left: 48px; top: 70px; height: auto;" data-block-id="48cc5d12069523debb16c2c934c97e3a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 12;">
 <h3>EXTRACT METHOD</h3>
 </div></div>
-<div class="sl-block" data-block-type="code" style="width: 479px; height: 349px; left: 481px; top: 279px;" data-block-id="f118eefb7e22a6b33cefd810eaa6de0b"><div class="sl-block-content" style="z-index: 15; font-size: 80%;" data-highlight-theme="github-gist"><pre class="python"><code>def printUser(self):
-    self.printBio()
-    self.printDetails()
+<div class="sl-block" data-block-type="code" style="width: 479px; height: 349px; left: 481px; top: 279px;" data-block-id="f118eefb7e22a6b33cefd810eaa6de0b"><div class="sl-block-content" style="z-index: 15; font-size: 80%;" data-highlight-theme="github-gist"><pre class="python"><code>def print_profile(self):
+    self.print_bio()
+    self.print_details()
 
-def printDetails(self):
+def print_details(self):
     print("name:", self.name)
     print("amount:", self.email)
     # ... more info
 
 </code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 430px; height: 350px; left: 7px; top: 278px;" data-block-id="2183c9ac491745aec17ef49245f5ebab"><div class="sl-block-content" style="z-index: 16; font-size: 80%;" data-highlight-theme="github-gist"><pre class="python"><code>def printProfile(self):
-    self.printBio()
+<div class="sl-block" data-block-type="code" style="width: 430px; height: 350px; left: 7px; top: 278px;" data-block-id="2183c9ac491745aec17ef49245f5ebab"><div class="sl-block-content" style="z-index: 16; font-size: 80%;" data-highlight-theme="github-gist"><pre class="python"><code>def print_profile(self):
+    self.print_bio()
 
     # print details
     print("name:", self.name)
@@ -522,15 +522,15 @@ def printDetails(self):
 <div class="sl-block" data-block-type="text" style="width: 626px; left: 48px; top: 70px; height: auto;" data-block-id="f7fece1952e6b602953a67b4aeb29f6d"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 12;">
 <h3>Preserve Whole Object</h3>
 </div></div>
-<div class="sl-block" data-block-type="code" style="width: 479px; height: 349px; left: 481px; top: 278px;" data-block-id="e0c6632e7e5730d2e3e2a283b16771dc"><div class="sl-block-content" style="z-index: 15; font-size: 80%;" data-highlight-theme="github-gist"><pre class="python"><code>printDate(datetime_obj):
+<div class="sl-block" data-block-type="code" style="width: 479px; height: 349px; left: 481px; top: 278px;" data-block-id="e0c6632e7e5730d2e3e2a283b16771dc"><div class="sl-block-content" style="z-index: 15; font-size: 80%;" data-highlight-theme="github-gist"><pre class="python"><code>print_date(datetime_obj):
     pass
 
 dt = datetime.datetime.now()
-printDate(dt)</code></pre></div></div>
-<div class="sl-block" data-block-type="code" style="width: 428px; height: 350px; left: 7px; top: 278px;" data-block-id="0adf7ab6c388078fec60eb4540006fe2"><div class="sl-block-content" style="z-index: 16; font-size: 80%;" data-highlight-theme="github-gist"><pre class="python"><code>def printDate(day, month, year, hour, minute, second):
+print_date(dt)</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 428px; height: 350px; left: 7px; top: 278px;" data-block-id="0adf7ab6c388078fec60eb4540006fe2"><div class="sl-block-content" style="z-index: 16; font-size: 80%;" data-highlight-theme="github-gist"><pre class="python"><code>def print_datetime(day, month, year, hour, minute, second):
     pass
 
-printDate(3, 12, 2016, 10, 0, 0)</code></pre></div></div></section><section class="has-light-background" data-background-color="#ffffff" data-id="288a36a8e470f3bbdfb6488f981f3126"><div class="sl-block" data-block-type="text" style="width: 410px; left: 35px; top: 210px; height: auto;" data-block-id="369988ff6e37ad04ac9d09466808786b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 10;">
+print_date(3, 12, 2016, 10, 0, 0)</code></pre></div></div></section><section class="has-light-background" data-background-color="#ffffff" data-id="288a36a8e470f3bbdfb6488f981f3126"><div class="sl-block" data-block-type="text" style="width: 410px; left: 35px; top: 210px; height: auto;" data-block-id="369988ff6e37ad04ac9d09466808786b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 10;">
 <h3>not good</h3>
 </div></div>
 <div class="sl-block" data-block-type="text" style="width: 410px; left: 480px; top: 210px; height: auto;" data-block-id="b4223420828484b30967ffe737f1a330"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
@@ -647,7 +647,7 @@ def foo(x):
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":622123,"username":"toantran-2","name":"Toan Tran","description":null,"thumbnail_url":"https://lh4.googleusercontent.com/-X_tHQwy_Loc/AAAAAAAAAAI/AAAAAAAAASE/rR8V-rdqW4M/photo.jpg?sz=50","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":468931,"present_controls":false,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null},"email":"tdvtoan@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":869562,"slug":"deck","title":"Clean Code In Python","description":"","visibility":"all","published_at":"2016-12-02T11:40:50.762Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/b3bb39c75e713fe7d16b5d64d495bd03/thumb.jpg","view_count":0,"user":{"id":622123,"username":"toantran-2","name":"Toan Tran","description":null,"thumbnail_url":"https://lh4.googleusercontent.com/-X_tHQwy_Loc/AAAAAAAAAAI/AAAAAAAAASE/rR8V-rdqW4M/photo.jpg?sz=50","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":468931,"present_controls":false,"present_upsizing":true,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"quicksand","theme_color":"beige-brown","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1480731130321,"font_typekit":null,"font_google":null,"access_token":"hmm2dsUbMaLH3KBf9zWnX9mGPqMr","notes":{}}};
+	var SLConfig = {"current_user":{"id":622123,"username":"toantran-2","name":"Toan Tran","description":null,"thumbnail_url":"https://lh4.googleusercontent.com/-X_tHQwy_Loc/AAAAAAAAAAI/AAAAAAAAASE/rR8V-rdqW4M/photo.jpg?sz=50","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":468931,"present_controls":false,"present_upsizing":true,"present_notes":true,"editor_grid":true,"editor_snap":true,"developer_mode":false,"speaker_layout":null},"email":"tdvtoan@gmail.com","notify_on_receipt":true,"billing_address":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1},"deck":{"id":869562,"slug":"deck","title":"Clean Code In Python","description":"","visibility":"all","published_at":"2016-12-02T11:40:50.762Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/b3bb39c75e713fe7d16b5d64d495bd03/thumb.jpg","view_count":0,"user":{"id":622123,"username":"toantran-2","name":"Toan Tran","description":null,"thumbnail_url":"https://lh4.googleusercontent.com/-X_tHQwy_Loc/AAAAAAAAAAI/AAAAAAAAASE/rR8V-rdqW4M/photo.jpg?sz=50","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":468931,"present_controls":false,"present_upsizing":true,"present_notes":true}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"quicksand","theme_color":"beige-brown","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1480909570163,"font_typekit":null,"font_google":null,"access_token":"hmm2dsUbMaLH3KBf9zWnX9mGPqMr","notes":{}}};
 </script>
 
 		<script>
